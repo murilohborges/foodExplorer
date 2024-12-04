@@ -9,7 +9,6 @@ import plateIcon from '../../assets/plateIcon.png';
 import { useParams, useNavigate } from "react-router-dom";
 import { api } from "../../services/api.js";
 import { PanelButton } from "../../components/PanelButton/index.jsx";
-import { Button } from "../../components/Button/index.jsx";
 import { useSnackbar } from '../../context/SnackbarContext.jsx';
 
 export function Edit() {
